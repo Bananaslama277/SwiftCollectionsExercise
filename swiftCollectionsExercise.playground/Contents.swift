@@ -4,7 +4,7 @@ print(nums.count)
 print(nums.last)
 nums.sort()
 nums.reverse()
-nums.reverse()
+nums.shuffle()
 
 var marioBros = [String]()
 marioBros.append("Mario")
