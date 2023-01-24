@@ -1,4 +1,4 @@
-var nums  = [2, 64, 1] // Exersise called for let variable; created error
+var nums  = [2, 64, 1]
 print(nums)
 print(nums.count)
 print(nums.last)
