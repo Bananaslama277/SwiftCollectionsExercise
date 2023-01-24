@@ -20,9 +20,12 @@ print(marioVillains)
 print(marioVillains.contains("Yoshi"))
 
 var marioBrosGames = [String]()
-marioBros.append("Super Mario World")
-marioBros.append("Super Mario Bros")
-
+marioBrosGames.append("Super Mario World")
+marioBrosGames.append("Super Mario Bros")
 var marioBrosGamesSet = Set(marioBrosGames)
-print(marioBrosGamesSet)
 
+let characters:  [String : String] = [
+    "Mario" : "Chris Pratt",
+    "Luigi" : "Charlie Day"
+]
+print(characters["Mario"])
