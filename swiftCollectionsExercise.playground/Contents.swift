@@ -22,6 +22,7 @@ print(marioVillains.contains("Yoshi"))
 var marioBrosGames = [String]()
 marioBrosGames.append("Super Mario World")
 marioBrosGames.append("Super Mario Bros")
+
 var marioBrosGamesSet = Set(marioBrosGames)
 
 let characters:  [String : String] = [
@@ -29,3 +30,11 @@ let characters:  [String : String] = [
     "Luigi" : "Charlie Day"
 ]
 print(characters["Mario"])
+
+var otherCharactersOne = [
+    ["Donkey Kong", "Cranky Kong"],
+    ["Wario", "King Boo"]
+]
+
+print(otherCharactersOne[0].first)
+
